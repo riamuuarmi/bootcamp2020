@@ -21,5 +21,5 @@ jobs:
     - name: installing surge
       run: npm install --global surge
     - name: deploying using surge
-      run: surge .//build react_FistApp.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build/ react_FistApp.surge.sh --token ${{ secrets.SURGE_TOKEN }}
       
